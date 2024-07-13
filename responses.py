@@ -18,8 +18,6 @@ def get_response(user_input: str) -> str:
         return 'Good, thanks!'
     elif 'bye' in lowered:
         return 'See you!'
-    elif 'fuck' in lowered or 'idiot' in lowered or 'bitch' in lowered or 'dumbass' in lowered:
-        return 'fuck you'
     elif 'roll dice' in lowered or 'roll a dice' in lowered:
         return f'''
 you rolled: {randint(1, 6)}
